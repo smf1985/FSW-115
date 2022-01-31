@@ -1,0 +1,57 @@
+{
+    "appetizers": [{
+            "name": "Fruit Bowl",
+            "ingredients": ["Pineapple", "Watermelon", "Strawberries", "Kiwi"],
+            "description": "In season fruit chopped and mixed together."
+        },
+        {
+            "name": "Cheeze sticks",
+            "ingredients": ["Mozzarella", "Eggs", "Breadcrumbs"],
+            "description": "Breaded mozzarella cheese air fried to perfection and served with marinara sauce."
+        }       
+    ],
+    "cold sandwiches": [{
+            "name": "Ultimate Avocado Toast",
+            "ingredients": ["Muiltigrain Toast", "Avocados", "Tomato", "Lemon Juice", "salt & pepper"],
+            "description": "Freshly smashed avacado spread on muiltigrain toast with sliced tomatoes on top."
+        },
+        {
+            "name": "Lox Bagel Sandwich",
+            "ingredients": ["Smoked Salmon", "Cream Cheese", "Capers", "Red Onions", "Everything Begal"],
+            "description": "Everything begal with cream cheese stacked with smoked salmon, red onions and capers."
+        }
+    ],
+    "hot sandwiches": [{
+            "name": "Philly Cheesesteak with Peppers and Onions",
+            "ingredients": ["Hoagie Roll", "Petite Sirloin", "Provolone Cheese", "Bell Pepper", "Yellow Onion"],
+            "description": "Hoagie topped with sirloin, bell peppers, onions and melted provolone cheese."
+        },
+        {
+            "name": "Sirloin Steak Sandwich",
+            "ingredients": ["Sirloin", "Onion Roll", "Arugula", "Tomato", "Red Onion", "Mayonnaise mustard spread"],
+            "description": "Perfectly cooked sirloin served on an onion roll with tomato, red onions and arugula."
+        }
+    ],
+    "desserts": [{
+            "name": "Eclair",
+            "ingredients": ["Whole Milk", "Eggs", "Sugar", "Chocolate Chips", "Heavy Whipping Cream"],
+            "description": "Pastry dough filled with cream and topped with chocolate icing"
+        },
+        {
+            "name": "White Chocolate Chip Pumpkin Cookie",
+            "ingredients": ["Pumpkin Puree", "White Chocolate Chips", "Flour", "Sugar"],
+            "description": "Soft pumpkin cookie with white chocolate chips."
+        }
+    ],
+    "drinks": [{
+            "name": "Hot or Iced Mocha Coffee",
+            "ingredients": ["Coffee Beans", "White Chocolate Sauce", "Chocolate Sauce"],
+            "description": "Hot or cold coffe with either chocolate or white chocolate sauce."
+        },
+        {
+            "name": "Fruit Smoothie",
+            "ingredients": ["Pineapple", "Watermelon", "Strawberries", "Kiwi", "Yogurt"],
+            "description": "Refreshing fruit smoothie made your way."
+        }
+    ]
+}
