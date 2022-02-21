@@ -1,0 +1,51 @@
+html {
+    margin: 0;
+    background-color: #9ff0e2;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    font-family: 'Akaya Telivigala', cursive, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav>a {
+    text-decoration: none;
+    color: rgb(42, 77, 78);
+}
+
+.nav>a:hover {
+    color: #47b9db;
+    font-size: 2em;
+}
+
+.data_button {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: rgb(166, 250, 250);
+    font-family: 'Akaya Telivigala', cursive, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.data_button:hover {
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.2);
+    border: 5px solid black;
+}
+
+li {
+    margin-left: 2em;
+}
+
+.data_elements {
+    color: #054550;
+    font-size: 1.5em;
+    font-family: 'Akaya Telivigala', cursive, Georgia, Times, 'Times New Roman', serif;
+}

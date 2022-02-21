@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: linear-gradient(90deg, #06b8be 0%, #82eedc 50%, #0bc5c5 100%);
+    padding: 30px 40px;
+    color: rgb(2, 42, 48);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+li,
+ol {
+    text-align: center;
+    color: #02332c;
+}
+
+ol,
+li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #69ffe6;
+    transition: 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ol,
+li.checked {
+    background: #0bac83;
+    color: #02312b;
+}
