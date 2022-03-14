@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: rgb(1, 114, 114);
+}
+
+#postToAPI {
+    background-color:rgb(80, 248, 206);
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+ul {
+    color: rgb(1, 136, 146);
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+    ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

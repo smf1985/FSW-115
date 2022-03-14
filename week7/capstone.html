@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone To-Do List</title>
+    <link rel="stylesheet" href="capstone.css">
+    <script src="./capstone.js" defer></script>
+</head>
+
+<body>
+    <h1>Capstone To-Do List</h1>
+    <form id="postToAPI">
+        <label for="list-name">Name: </label>
+        <input type="text" id="list-name" required><br><br>
+        <label for="list-description">Description: </label>
+        <textarea type="text" id="list-description" required></textarea><br><br>
+        <button>POST</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.23.0/axios.min.js"></script>
+</body>
+
+</html>
